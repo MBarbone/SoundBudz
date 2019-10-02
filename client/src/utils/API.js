@@ -1,4 +1,5 @@
 import axios from "axios";
+const TICKET_MASTER = process.env.REACT_APP_TICKETMASTER_API_KEY;
 
 export default {
   // retrieves a list of events using Ticketmaster Discovery API
@@ -7,7 +8,7 @@ export default {
     return axios.get(
       proxyurl +
         "https://app.ticketmaster.com/discovery/v2/events/?keyword=shania+twain&apikey=" +
-        process.env.REACT_APP_TICKETMASTER_API_KEY
+        TICKET_MASTER
     );
   },
 
@@ -16,7 +17,7 @@ export default {
     return axios.get(
       proxyurl +
         `https://app.ticketmaster.com/discovery/v2/events/?keyword=ariana+grande&apikey=
-        ${process.env.REACT_APP_TICKETMASTER_API_KEY}`
+        ${TICKET_MASTER}`
     );
   },
   createGroup: function(groupData) {
