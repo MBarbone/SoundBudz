@@ -1,0 +1,33 @@
+/* form margin alignment */
+
+
+/* .ui.form.login-form,
+.ui.form.registration-form {
+  margin: auto;
+} */
+
+
+/* .ui.form input:not([type]),
+.ui.form input[type="email"],
+.ui.form input[type="password"],
+.ui.form input[type="text"],
+.ui.form input[type="time"] {
+    width: 105%;
+} */
+
+
+/* error message parent div */
+
+div.ui.red.message {
+    width: 100%;
+}
+
+.btn-login,
+.btn-register {
+    margin-top: -40px !important;
+    background: #8B008B !important;
+    width: 50%;
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align: center;
+}

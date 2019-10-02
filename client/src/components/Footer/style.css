@@ -1,0 +1,18 @@
+.footer {
+  height: 150px;
+  background: #8b008b;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  color: white;
+  bottom: 0;
+}
+
+.spans {
+  padding-top: 35px !important;
+}
+
+.footer {
+  margin-top: 40px;
+}
