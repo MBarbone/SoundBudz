@@ -1,7 +1,7 @@
 ### SoundBudz
 A fullstack, React webapp for people who really love live music. The user searches for a favourite artist or band or just a city to see when they are playing. On adding the event to their list, they automatically join a chat group with other fans who want to go.
 
-- https://fast-harbor-15066.herokuapp.com/
+- https://barbone-soundbudz.herokuapp.com/
 - https://github.com/vladgolitsyn/Project-Three
 
 
